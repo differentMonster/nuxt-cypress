@@ -1,7 +1,7 @@
 import {
     mount
 } from '@cypress/vue'
-import HelloWorld from './HelloWorld.vue'
+import HelloWorld from '../../components/HelloWorld.vue'
 
 it('renders a message', () => {
     mount(HelloWorld, {
